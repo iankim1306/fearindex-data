@@ -1,0 +1,31 @@
+name: 공포지수 데이터 갱신
+
+on:
+  schedule:
+    - cron: "10 22 * * *"   # 매일 07:10 KST (미국장 마감 후)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 크롤러 실행 (미국 글로벌 + 크립토)
+        run: python crawl.py
+      - name: 변경분 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add *.json
+          if git diff --staged --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "data: 공포지수 자동 갱신 $(date -u +%Y-%m-%d)"
+            git push
+          fi
