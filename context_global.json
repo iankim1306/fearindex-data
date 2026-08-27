@@ -1,1 +1,1 @@
-{"current_score":73,"current_label":"greed","band":5,"sample_count":143,"avg_return_30d":1.4,"avg_return_90d":3.4,"examples":[{"date":"2026-01-09","score":68,"return_90d":-2.0},{"date":"2026-01-06","score":68,"return_90d":-4.8},{"date":"2025-12-30","score":70,"return_90d":-8.0}]}
+{"current_score":75,"current_label":"greed","band":5,"sample_count":132,"avg_return_30d":1.7,"avg_return_90d":3.8,"examples":[{"date":"2025-12-30","score":70,"return_90d":-8.0},{"date":"2025-12-29","score":70,"return_90d":-7.8},{"date":"2025-12-26","score":73,"return_90d":-6.5}]}
