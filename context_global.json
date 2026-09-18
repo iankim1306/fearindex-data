@@ -1,1 +1,1 @@
-{"current_score":47,"current_label":"neutral","band":5,"sample_count":81,"avg_return_30d":1.8,"avg_return_90d":4.2,"examples":[{"date":"2026-04-23","score":51,"return_90d":5.6},{"date":"2026-04-21","score":50,"return_90d":5.6},{"date":"2026-04-14","score":51,"return_90d":8.7}]}
+{"current_score":45,"current_label":"neutral","band":5,"sample_count":89,"avg_return_30d":1.7,"avg_return_90d":4.7,"examples":[{"date":"2026-04-21","score":50,"return_90d":5.6},{"date":"2026-04-13","score":44,"return_90d":9.5},{"date":"2026-04-10","score":40,"return_90d":9.8}]}
