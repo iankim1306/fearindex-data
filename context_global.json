@@ -1,1 +1,1 @@
-{"current_score":40,"current_label":"fear","band":5,"sample_count":90,"avg_return_30d":0.8,"avg_return_90d":4.9,"examples":[{"date":"2026-04-13","score":44,"return_90d":9.5},{"date":"2026-04-10","score":40,"return_90d":9.8},{"date":"2026-04-09","score":39,"return_90d":10.0}]}
+{"current_score":44,"current_label":"fear","band":5,"sample_count":85,"avg_return_30d":1.4,"avg_return_90d":4.5,"examples":[{"date":"2026-06-05","score":42,"return_90d":3.8},{"date":"2026-04-13","score":44,"return_90d":9.5},{"date":"2026-04-10","score":40,"return_90d":9.8}]}
