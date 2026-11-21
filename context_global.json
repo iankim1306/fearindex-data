@@ -1,1 +1,1 @@
-{"current_score":10,"current_label":"extreme_fear","band":5,"sample_count":9,"avg_return_30d":9.2,"avg_return_90d":13.9,"examples":[{"date":"2026-03-31","score":15,"return_90d":14.0},{"date":"2026-03-30","score":10,"return_90d":15.9},{"date":"2026-03-27","score":11,"return_90d":15.5}]}
+{"current_score":7,"current_label":"extreme_fear","band":5,"sample_count":3,"avg_return_30d":11.8,"avg_return_90d":15.0,"examples":[{"date":"2026-03-30","score":10,"return_90d":15.9},{"date":"2026-03-27","score":11,"return_90d":15.5},{"date":"2026-03-26","score":12,"return_90d":13.6}]}
